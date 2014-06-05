@@ -114,8 +114,12 @@
 
 .layout-full-width-left-heading {
     @include clearfix;
+    margin-top: 2em;
+    margin-bottom: 2em;
     @media (min-width: $large-screen) {
         border-top: 1px solid $colour_borders;
+        margin-top: 4em;
+        margin-bottom: 4em;
     }
     .heading-column {
         @media (min-width: $large-screen) {
@@ -128,12 +132,31 @@
         padding-top: 1em;
         @media (min-width: $large-screen) {
             padding-top: 3em;
-        }
-        @media (min-width: $large-screen) {
             width: 80%;
             float: left;
         }
     }
+}
+
+.layout-full-width-inverse {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 2em;
+  padding-bottom: 3em;
+  background-color: $colour_dark_blue;
+  color: #fff;
+  @media (min-width: $large-screen) {
+    padding-top: 3em;
+    padding-bottom: 4em;
+  }
+  .read-more {
+    color: #fff;
+    &:hover,
+    &:active,
+    &:focus {
+        color: $colour_red;
+    }
+  }
 }
 
 .left-heading {
@@ -148,5 +171,35 @@
     @media (min-width: $large-screen) {
         padding-top: 2.8em;
         border-top: none;
+    }
+}
+
+.read-more {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #5d6c7e;
+  text-decoration: underline;
+}
+
+.column-one-of-four {
+  h3 {
+    font-size: 1.125em;
+  }
+  p {
+    font-size: 0.875em;
+    color: $colour_blue;
+    .layout-full-width-inverse & {
+      color: #a4b1c2;
+    }
+  }
+}
+
+.final-call-to-action {
+    background-color: $colour_light_grey;
+    text-align: center;
+    padding: 4em 0;
+    h2 {
+        margin-bottom: 0.66em;
     }
 }
