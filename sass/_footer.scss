@@ -48,9 +48,9 @@ a.contact-us-footer-link {
     @extend .image-replacement;
     width: 210px;
     height: 39px;
-    background-image: url('../assets/img/poplus-logo-full.png');
+    background-image: url('../theme/img/poplus-logo-full.png');
     @media ($high-dpi-screen)  {
-        background-image: url('../assets/img/poplus-logo-full@2.png');
+        background-image: url('../theme/img/poplus-logo-full@2.png');
     }
     background-position: top left;
     background-repeat: no-repeat;
@@ -86,7 +86,7 @@ a.contact-us-footer-link {
     @extend .founder-logo;
     width: 116px;
     height: 32px;
-    background-image: url('../assets/img/ci-logo.png');
+    background-image: url('../theme/img/ci-logo.png');
     background-position: top left;
     background-repeat: no-repeat;
     margin-right: 1em;
@@ -97,9 +97,9 @@ a.contact-us-footer-link {
     @extend .founder-logo;
     width: 116px;
     height: 24px;
-    background-image: url('../assets/img/mysociety-logo.png');
+    background-image: url('../theme/img/mysociety-logo.png');
     @media ($high-dpi-screen)  {
-        background-image: url('../assets/img/mysociety-logo@2.png');
+        background-image: url('../theme/img/mysociety-logo@2.png');
     }
     background-position: top left;
     background-repeat: no-repeat;
