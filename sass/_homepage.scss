@@ -215,7 +215,8 @@
       background-color: darken($colour_light_grey, 15%);
     }
   }
-  [class*='button--'] + [class*='button--'] {
-    margin-left: 2em;
-  }
+}
+
+[class*='button--'] + [class*='button--'] {
+  margin-left: 1.5em;
 }
